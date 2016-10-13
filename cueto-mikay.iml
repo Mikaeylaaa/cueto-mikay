@@ -6,7 +6,6 @@
       <sourceFolder url="file://$MODULE_DIR$/app" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
     </content>
-    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="module-library">
@@ -40,5 +39,6 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
   </component>
 </module>
