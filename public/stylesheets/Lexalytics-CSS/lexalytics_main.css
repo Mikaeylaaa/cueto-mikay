@@ -1,0 +1,195 @@
+/* SM 320px Iphone 5 */
+@media screen and (min-width: 320px) and (max-width: 568px) {
+  /* line 3, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+  .modal-content {
+    width: 95% !important;
+  }
+  /* line 5, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+  .modal-content .sec7_des {
+    width: 112% !important;
+    left: -7% !important;
+  }
+  /* line 9, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+  .modal-content .sec7_des tr td {
+    font-size: 14px;
+    text-align: left;
+  }
+  /* line 13, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+  .modal-content .sec7_des small {
+    font-size: 12px !important;
+  }
+  /* line 16, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+  .modal-content .sec7_des h1 {
+    font-size: 23px;
+    margin-left: 3% !important;
+  }
+}
+/* 414px  IPhone 6+ */
+@media screen and (min-width: 414px) and (max-width: 767px) {
+  /* line 28, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+  .modal-content .sec7_des {
+    width: 105% !important;
+    left: -4% !important;
+  }
+  /* line 31, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+  .modal-content .sec7_des tr td {
+    font-size: 14px;
+  }
+  /* line 34, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+  .modal-content .sec7_des h1 {
+    font-size: 31px;
+    margin-left: 3% !important;
+  }
+}
+/* MD */
+@media screen and (max-width: 1068px) and (min-width: 768px) {
+  /* line 47, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+  .sec7_des table tr td {
+    font-size: 16px;
+  }
+  /* line 50, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+  .sec7_des h1 {
+    font-size: 2.5em;
+  }
+}
+/* LG */
+@media screen and (max-width: 1280px) and (min-width: 1069px) {
+  /* line 60, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+  .sec7_des table tr td {
+    font-size: 18px;
+  }
+  /* line 64, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+  .sec7_des h1 {
+    font-size: 3em;
+  }
+}
+/* line 70, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+html, body, h1 {
+  font-family: "Helvetica", "Arial" !important;
+}
+
+/* line 75, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+#wrapper-1 .img-block1 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* line 81, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+#wrapper-1 #header h3 {
+  z-index: 1000;
+  position: absolute;
+  text-align: center;
+}
+/* line 87, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+#wrapper-1 .btn-buy {
+  width: 15%;
+  position: absolute;
+  margin-left: 58%;
+  margin-top: -12.5%;
+}
+
+/* line 96, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+#wrapper-2 img, #wrapper-3 img, #wrapper-4 img, #wrapper-5 img, #wrapper-6 img, #wrapper-7 img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 107, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+#wrapper-7 div.btn-buy-container .btn-buy {
+  width: 15%;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: -15.5%;
+}
+/* line 115, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+#wrapper-7 div.btn-spec-container .btn-spec {
+  width: 15%;
+  position: absolute;
+  margin-left: 42.5%;
+  margin-top: -15.5%;
+}
+
+/* The Modal (background) */
+/* line 125, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content/Box */
+/* line 139, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+.modal-content {
+  background: #efccce;
+  background: -moz-linear-gradient(left, #efccce 0%, rgba(255, 255, 255, 0.97) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #efccce), color-stop(100%, rgba(255, 255, 255, 0.97)));
+  background: -webkit-linear-gradient(left, #efccce 0%, rgba(255, 255, 255, 0.97) 100%);
+  background: -o-linear-gradient(left, #efccce 0%, rgba(255, 255, 255, 0.97) 100%);
+  background: -ms-linear-gradient(left, #efccce 0%, rgba(255, 255, 255, 0.97) 100%);
+  background: linear-gradient(to right, #efccce 0%, rgba(255, 255, 255, 0.97) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efccce', endColorstr='#ffffff', GradientType=1 );
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%;
+  /* The Close Button */
+}
+/* line 153, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+.modal-content .sec7_des {
+  width: 85%;
+  position: relative;
+  top: 0%;
+  left: 3%;
+  line-height: 25px;
+  z-index: 3;
+  font-size: 18px;
+  color: #000;
+}
+/* line 162, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+.modal-content .sec7_des h1 {
+  color: #B62F28;
+  margin-left: 10%;
+  text-align: center;
+}
+/* line 167, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+.modal-content .sec7_des table {
+  width: 100%;
+}
+/* line 169, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+.modal-content .sec7_des table tr td:first-child {
+  width: 50%;
+  padding-right: 10px;
+  font-weight: bolder;
+  text-align: right;
+}
+/* line 175, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+.modal-content .sec7_des table tr td:nth-child(2) {
+  width: 347px;
+}
+/* line 180, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+.modal-content .sec7_des table tr td {
+  vertical-align: top;
+}
+/* line 187, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+.modal-content .close {
+  color: #aaa;
+  float: right;
+  font-size: 30px;
+  font-weight: bolder;
+}
+/* line 194, ../../sass/Lexalytics-CSS/lexalytics_main.scss */
+.modal-content .close:hover,
+.modal-content .close:focus {
+  color: #0000;
+  text-decoration: none;
+  cursor: pointer;
+}
