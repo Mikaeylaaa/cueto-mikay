@@ -67,22 +67,32 @@
     }
 }
 
-html, body,h1 {
+html, body{
 font-family: "Helvetica","Arial"!important;
+background-color: #8BB3CD;
+width: 100%;
+min-height: 100%;
 }
-
+.standardpage {
+  width: 960px;
+  margin: 0 auto;
+}
+#wrapper{
+    #header {
+        background-color: #8BB3CD;
+        h3{
+            z-index: 1000;
+            position: absolute;
+            text-align: center;
+        }
+    }
+}
 #wrapper-1{
     .img-block1 {
         width: 100%;
         margin:0;
         padding:0;
         }
-
-    #header h3{
-        z-index: 1000;
-        position: absolute;
-        text-align: center;
-    }
 
     .btn-buy {
         width:15%;

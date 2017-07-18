@@ -4,7 +4,8 @@
 
 # Home page
 GET     /                                       Application.index
-GET     /Lexalytics-AI                                 Application.lexalyticsMain
+GET     /Lexalytics-AI                          Application.lexalyticsMain
+GET     /Landing-Page-Main                      Application.landingPageIndex
 
 # Ignore favicon requests
 GET     /favicon.ico                            404

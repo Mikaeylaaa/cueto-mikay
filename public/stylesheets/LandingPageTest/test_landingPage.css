@@ -1,0 +1,370 @@
+/* line 1, ../../sass/LandingPageTest/test_landingPage.scss */
+body {
+  margin: 0 0 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #fff;
+}
+
+/* line 10, ../../sass/LandingPageTest/test_landingPage.scss */
+a:link,
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+/* line 15, ../../sass/LandingPageTest/test_landingPage.scss */
+a.articleLink:link,
+a.articleLink:visited {
+  text-decoration: inherit;
+  color: #00F;
+}
+
+/* line 20, ../../sass/LandingPageTest/test_landingPage.scss */
+a.articleLink:hover {
+  text-decoration: underline;
+}
+
+/* line 23, ../../sass/LandingPageTest/test_landingPage.scss */
+.clear {
+  clear: both;
+}
+
+/* line 26, ../../sass/LandingPageTest/test_landingPage.scss */
+#top1 {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 3px 0px;
+  color: #fff;
+  text-align: center;
+  background: #2D1152;
+  font-size: 14px;
+  font-family: arial;
+}
+
+/* line 37, ../../sass/LandingPageTest/test_landingPage.scss */
+#top2 {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: #400090;
+}
+
+/* line 43, ../../sass/LandingPageTest/test_landingPage.scss */
+#top2inner {
+  width: 1040px;
+  height: auto;
+  margin: 0 auto;
+  padding: 5px 0px;
+  text-align: left;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+/* line 53, ../../sass/LandingPageTest/test_landingPage.scss */
+#top3 {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 59, ../../sass/LandingPageTest/test_landingPage.scss */
+#top3inner {
+  width: 1040px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 20px 0px 15px 0px;
+}
+
+/* line 65, ../../sass/LandingPageTest/test_landingPage.scss */
+#top4 {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* line 70, ../../sass/LandingPageTest/test_landingPage.scss */
+#top4inner {
+  width: 1040px;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px 0px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* line 78, ../../sass/LandingPageTest/test_landingPage.scss */
+#mainContainer {
+  width: 1040px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+/* line 84, ../../sass/LandingPageTest/test_landingPage.scss */
+#articleContent {
+  width: 700px;
+  height: auto;
+  float: left;
+  padding-bottom: 25px;
+}
+
+/* line 90, ../../sass/LandingPageTest/test_landingPage.scss */
+#articleHeader {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  font-size: 36px;
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 15px;
+}
+
+/* line 98, ../../sass/LandingPageTest/test_landingPage.scss */
+#articleDate {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: 'Roboto';
+  padding-bottom: 15px;
+  color: #999;
+}
+
+/* line 107, ../../sass/LandingPageTest/test_landingPage.scss */
+.articleImg {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+/* line 113, ../../sass/LandingPageTest/test_landingPage.scss */
+.imgSubheader {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+/* line 122, ../../sass/LandingPageTest/test_landingPage.scss */
+.articleSubheader {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 27px;
+}
+
+/* line 131, ../../sass/LandingPageTest/test_landingPage.scss */
+.articleText {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 139, ../../sass/LandingPageTest/test_landingPage.scss */
+.articleButton {
+  width: calc(100% - 20px);
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  text-align: center;
+  background: #63d021;
+}
+
+/* line 150, ../../sass/LandingPageTest/test_landingPage.scss */
+.articleButton:hover {
+  background: #49a511;
+}
+
+/* line 153, ../../sass/LandingPageTest/test_landingPage.scss */
+#sidebar {
+  width: 300px;
+  height: auto;
+  float: right;
+}
+
+/* line 158, ../../sass/LandingPageTest/test_landingPage.scss */
+.sidebarBanner {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+/* line 164, ../../sass/LandingPageTest/test_landingPage.scss */
+#footer {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: #344a5f;
+}
+
+/* line 171, ../../sass/LandingPageTest/test_landingPage.scss */
+#footerInner {
+  width: 1040px;
+  height: auto;
+  margin: 0 auto;
+  padding: 25px 0px;
+  text-align: left;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: center;
+}
+
+/* line 182, ../../sass/LandingPageTest/test_landingPage.scss */
+#map {
+  width: 700px;
+  height: 405px;
+}
+
+@media screen and (max-width: 1040px) {
+  /* line 189, ../../sass/LandingPageTest/test_landingPage.scss */
+  #top1 {
+    font-size: 11px;
+  }
+
+  /* line 192, ../../sass/LandingPageTest/test_landingPage.scss */
+  #top2inner {
+    width: 95%;
+  }
+
+  /* line 195, ../../sass/LandingPageTest/test_landingPage.scss */
+  #top3inner {
+    width: 95%;
+    height: 30px;
+    margin: 0 auto;
+    padding: 15px 0px 10px 0px;
+  }
+
+  /* line 201, ../../sass/LandingPageTest/test_landingPage.scss */
+  #top4inner {
+    width: 95%;
+  }
+
+  /* line 204, ../../sass/LandingPageTest/test_landingPage.scss */
+  #mainContainer {
+    width: 95%;
+  }
+
+  /* line 207, ../../sass/LandingPageTest/test_landingPage.scss */
+  #articleContent {
+    width: calc(100% - 270px);
+  }
+
+  /* line 210, ../../sass/LandingPageTest/test_landingPage.scss */
+  .articleImg {
+    padding-bottom: 15px;
+  }
+
+  /* line 213, ../../sass/LandingPageTest/test_landingPage.scss */
+  .imgSubheader {
+    padding-bottom: 15px;
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  /* line 218, ../../sass/LandingPageTest/test_landingPage.scss */
+  .articleSubheader {
+    padding-bottom: 15px;
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  /* line 223, ../../sass/LandingPageTest/test_landingPage.scss */
+  .articleText {
+    padding-bottom: 15px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  /* line 228, ../../sass/LandingPageTest/test_landingPage.scss */
+  .articleButton {
+    font-size: 27px;
+  }
+
+  /* line 231, ../../sass/LandingPageTest/test_landingPage.scss */
+  #footerInner {
+    width: 95%;
+    font-size: 12px;
+    padding: 20px 0px;
+  }
+}
+@media screen and (max-width: 900px) {
+  /* line 239, ../../sass/LandingPageTest/test_landingPage.scss */
+  #articleContent {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* line 244, ../../sass/LandingPageTest/test_landingPage.scss */
+  #sidebar {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* line 249, ../../sass/LandingPageTest/test_landingPage.scss */
+  .imgSubheader {
+    padding-bottom: 12px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  /* line 254, ../../sass/LandingPageTest/test_landingPage.scss */
+  .articleSubheader {
+    padding-bottom: 12px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  /* line 259, ../../sass/LandingPageTest/test_landingPage.scss */
+  .articleText {
+    padding-bottom: 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* line 264, ../../sass/LandingPageTest/test_landingPage.scss */
+  .articleButton {
+    font-size: 24px;
+  }
+
+  /* line 267, ../../sass/LandingPageTest/test_landingPage.scss */
+  #footerInner {
+    width: 95%;
+    font-size: 11px;
+    padding: 15px 0px;
+  }
+
+  /* line 272, ../../sass/LandingPageTest/test_landingPage.scss */
+  .sidebarBanner {
+    display: none;
+  }
+
+  /* line 275, ../../sass/LandingPageTest/test_landingPage.scss */
+  #map {
+    transform: scale(0.8);
+    margin-left: -80px;
+  }
+}

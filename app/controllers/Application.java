@@ -15,4 +15,7 @@ public class Application extends Controller {
     public static void lexalyticsMain() {
         render();
     }
+    public static void landingPageIndex() {
+        render();
+    }
 }
