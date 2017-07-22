@@ -6,6 +6,7 @@
 GET     /                                       Application.index
 GET     /Lexalytics-AI                          Application.lexalyticsMain
 GET     /Landing-Page-Main                      Application.landingPageIndex
+GET     /Test-Angular                           Application.indexAngular
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
