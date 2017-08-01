@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+ <html ng-app="news_project">
+    <head>
+        <title>Test Angular</title>
+        <meta charset="${_response_encoding}">
+        <meta name="viewport" content="width=1100,initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+        #{get 'moreStyles' /}
+        #{stylesheet 'hf.css'/}
+        #{stylesheet 'tinybox/style.css'/}
+        <link rel="shortcut icon" type="image/png" href="@{'/public/images/resume_prof_pic.ico'}">
+        #{stylesheet 'bootstrap.min.css'/}
+        #{stylesheet '/Test-News-Angular/test_news_angular.css'/}
+        <link rel="stylesheet" type="text/css" href="/news/public/Flat-UI-master/css/flat-ui.css">
+
+        #{get 'moreScripts' /}
+        <script src="@{'/public/javascripts/jquery-1.6.4.min.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+        #{script 'jquery-1.10.2.min.js'/}
+        #{script 'angular.min.js' /}
+        #{script 'angular-touch.min.js' /}
+        #{script 'bootstrap.min.js'/}
+        <script type="text/javascript" src="/public/Flat-UI-master/js/flatui-checkbox.js"></script>
+        #{script 'querystring.js'/}
+        <script type="text/javascript" src="/public/javascripts/tinybox/tinybox.min.js"></script>
+        <script type="text/javascript" src="/public/javascripts/angular/1.2.27/angular-sanitize.js"></script>
+        <script type="text/javascript" src="/public/javascripts/angular-UI/ui-select/select.js"></script>
+
+        <script type="text/javascript" src="/public/javascripts/pagejs/newspage.js"></script>
+    </head>
+
+    <body ng-controller="myNewsCtrl">
+        <div id="wrapper">
+            <header>
+                <div class="main standardpage">
+                    <nav class="navbar navbar-default" role="navigation">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">Logo</a>
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container-fluid -->
+                    </nav>
+                </div>
+            </header>
+
+                <div class="container standardpage">
+                    <div class="row">
+
+                        <div class="col-lg-3">
+                            <div id="news_header">
+                                <h3>{{ newsheader }}</h3>
+                            </div>
+
+                            <div id="news-categories">
+                                <ul class="category_list text-center">
+                                    <li> Category A </li>
+                                    <li> Category B </li>
+                                    <li> Category C </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <br><br><br>
+                        <div id="news_content" >
+                            <div class="col-lg-9">
+                                    <div class="col-lg-5">
+                                        <div class="news_thumbnail" style="background: white;">
+                                            <img class="image-responsive top-image" src="https://twportal.blob.core.windows.net/789newnews/123456789_1498289121819.jpg">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7">
+                                        <div class="news_content_preview" style="background: lightyellow;">
+                                            Content preview...
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <!--<footer>-->
+                <!--footer-->
+            <!--</footer>-->
+        </div>
+
+
+    </body>
+</html>

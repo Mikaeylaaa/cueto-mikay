@@ -18,7 +18,4 @@ public class Application extends Controller {
     public static void landingPageIndex() {
         render();
     }
-    public static void indexAngular() {
-        render();
-    }
 }
