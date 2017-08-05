@@ -1,0 +1,55 @@
+/* line 1, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#test-equal {
+  padding: 20px;
+  border: 1px dotted red;
+}
+
+/* line 5, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+h1 {
+  border-bottom: 1px solid gray;
+}
+
+/* line 8, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news-categories {
+  /*margin-top: 10px;*/
+  width: 250px;
+  height: auto;
+  background-color: #fff;
+  padding: 20px;
+}
+/* line 14, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news-categories .category_list {
+  list-style-type: none;
+}
+/* line 16, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news-categories .category_list li {
+  display: block;
+  padding: 10px;
+}
+/* line 20, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news-categories .category_list li:nth-of-type(1) {
+  background: #808080;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+/* line 27, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news-categories .category_list li:nth-of-type(2), #news-categories .category_list li:nth-of-type(3) {
+  background: #ffffff;
+  color: #808080;
+  border-radius: 10px;
+  border-color: #808080;
+  margin-bottom: 10px;
+}
+
+/* line 37, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news_content {
+  position: relative;
+}
+/* line 40, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news_content .top-image {
+  width: 310px;
+  height: 228px;
+  background: #ffffff;
+  display: block;
+}
