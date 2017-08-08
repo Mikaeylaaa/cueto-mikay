@@ -1,15 +1,19 @@
 /* line 1, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+body {
+  background: #eaeaea;
+}
+
+/* line 4, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #test-equal {
-  padding: 20px;
   border: 1px dotted red;
 }
 
-/* line 5, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 7, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 h1 {
   border-bottom: 1px solid gray;
 }
 
-/* line 8, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 10, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories {
   /*margin-top: 10px;*/
   width: 250px;
@@ -17,39 +21,114 @@ h1 {
   background-color: #fff;
   padding: 20px;
 }
-/* line 14, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 16, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories .category_list {
+  padding: 0px !important;
   list-style-type: none;
 }
-/* line 16, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 19, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories .category_list li {
   display: block;
   padding: 10px;
 }
-/* line 20, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 23, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories .category_list li:nth-of-type(1) {
   background: #808080;
-  color: #ffffff;
+  color: #ffffff !important;
   border-radius: 10px;
   margin-bottom: 10px;
 }
-/* line 27, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 29, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news-categories .category_list li:nth-of-type(1) a {
+  text-decoration: none;
+  color: white;
+}
+/* line 35, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories .category_list li:nth-of-type(2), #news-categories .category_list li:nth-of-type(3) {
   background: #ffffff;
-  color: #808080;
+  color: #808080 !important;
   border-radius: 10px;
   border-color: #808080;
   margin-bottom: 10px;
 }
+/* line 42, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news-categories .category_list li:nth-of-type(2) a, #news-categories .category_list li:nth-of-type(3) a {
+  text-decoration: none;
+  color: #808080;
+}
+/* line 48, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news-categories .category_list li a {
+  text-decoration: none;
+  color: white;
+}
+/* line 54, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news-categories .category_list li.active {
+  background-color: #808080;
+  color: #ffffff !important;
+  border-radius: 10px;
+  border-color: #808080;
+  margin-bottom: 10px;
+}
+/* line 60, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news-categories .category_list li.active a {
+  color: white;
+}
+/* line 64, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news-categories .category_list li.normal {
+  background-color: #ffffff;
+  color: #808080 !important;
+  border-radius: 10px;
+  border-color: #808080;
+  margin-bottom: 10px;
+}
+/* line 70, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news-categories .category_list li.normal a {
+  color: #808080;
+}
 
-/* line 37, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 76, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news_content {
   position: relative;
 }
-/* line 40, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 79, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news_content .top-image {
   width: 310px;
   height: 228px;
   background: #ffffff;
   display: block;
+}
+/* line 86, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news_content .news-thumbnail {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  height: 228px;
+}
+/* line 92, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news_content ul {
+  list-style-type: none;
+  padding: 20px;
+}
+/* line 96, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news_content ul li {
+  padding: 8px;
+}
+/* line 100, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news_content ul .titleNews {
+  color: #3d4c79;
+  font-size: 18px;
+  font-weight: 600;
+}
+/* line 106, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news_content ul .subtitleNews {
+  color: #3c3c3c;
+  font-size: 15px;
+}
+/* line 111, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#news_content ul .contentPreview {
+  color: #a9a9a9;
+  font-size: 14px;
+  text-align: justify;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }

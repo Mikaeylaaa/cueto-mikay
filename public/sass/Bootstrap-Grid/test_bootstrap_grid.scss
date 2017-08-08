@@ -1,5 +1,7 @@
+body{
+    background: #eaeaea;
+}
  #test-equal{
-    padding: 20px;
     border: 1px dotted red;
 }
 h1{
@@ -12,6 +14,7 @@ h1{
     background-color: #fff;
     padding: 20px;
     .category_list{
+        padding: 0px !important;
         list-style-type: none;
         li{
             display: block;
@@ -19,17 +22,53 @@ h1{
 
                 &:nth-of-type(1){
                 background: #808080;
-                color: #ffffff;
+                color: #ffffff !important;
                 border-radius: 10px;
                 margin-bottom: 10px;
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
             }
 
             &:nth-of-type(2), &:nth-of-type(3){
                 background: #ffffff;
-                color: #808080;
+                color: #808080 !important;
                 border-radius: 10px;
                 border-color: #808080;
                 margin-bottom: 10px;
+
+                a{
+                    text-decoration: none;
+                    color: #808080;
+                }
+            }
+
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+        li.active{
+            background-color:#808080;
+            color: #ffffff !important;
+            border-radius: 10px;
+            border-color: #808080;
+            margin-bottom: 10px;
+            a{
+                color: white;
+            }
+        }
+        li.normal{
+            background-color:#ffffff;
+            color: #808080 !important;
+            border-radius: 10px;
+            border-color: #808080;
+            margin-bottom: 10px;
+            a{
+                color: #808080;
             }
         }
     }
@@ -42,5 +81,40 @@ h1{
         height: 228px;
         background: #ffffff;
         display: block;
+    }
+
+    .news-thumbnail{
+        background-color: #ffffff;
+        margin-bottom: 20px;
+        height: 228px;
+    }
+
+    ul{
+        list-style-type: none;
+        padding: 20px;
+
+        li{
+            padding: 8px;
+        }
+
+        .titleNews{
+            color: #3d4c79;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .subtitleNews{
+            color: #3c3c3c;
+            font-size: 15px;
+        }
+
+        .contentPreview{
+            color: #a9a9a9;
+            font-size: 14px;
+            text-align: justify;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
     }
 }
