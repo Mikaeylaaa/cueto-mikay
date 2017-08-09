@@ -132,3 +132,69 @@ h1 {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
+/* line 123, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#caseStudy h1 {
+  font-family: "HelveticaNeue-UltraLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 80px;
+  font-weight: normal;
+  margin: 0;
+  text-align: right;
+}
+/* line 131, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#caseStudy h2 {
+  border-top: 1px solid #211f1e;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0 40px 0;
+  padding: 30px 0 0 0;
+  text-align: right;
+}
+/* line 140, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#caseStudy .day > div {
+  font-weight: bold;
+  line-height: 48px;
+}
+/* line 145, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#caseStudy .weekday span {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 150, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#caseStudy .weekday p {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 156, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#caseStudy .weather img {
+  width: 48px;
+}
+/* line 160, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#caseStudy .high p,
+#caseStudy .low p,
+#caseStudy .hourly .temp {
+  font-size: 16px;
+}
+/* line 166, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#caseStudy .hourly {
+  text-align: center;
+  display: none;
+}
+/* line 171, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#caseStudy .hourly .hour {
+  font-weight: bold;
+  font-size: 16px;
+}
+/* line 176, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#caseStudy .hourly img {
+  width: 24px;
+}
+/* line 180, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#caseStudy .hourly p {
+  margin: 16px 0;
+}
+/* line 184, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+#caseStudy .last {
+  margin-bottom: 100px;
+}

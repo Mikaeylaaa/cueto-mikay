@@ -1,6 +1,6 @@
-var news_app_page = angular.module('news_project', []);
+var app = angular.module('news_project', []);
 
-    news_app_page.controller('myNewsCtrl', function($scope){
+    app.controller('myNewsCtrl', ['$scope', 'forecast', function($scope, forecast){
 
         $scope.newsheader = "NEWS";
         $scope.newsContents = [
@@ -26,19 +26,28 @@ var news_app_page = angular.module('news_project', []);
             },
         ]
 
-        $scope.events = [
+        $scope.apps = [
             {
-                imagelink: 'https://twportal.blob.core.windows.net/789newnews/123456789_1499244870326.jpg'
+                imagelink: 'https://twportal.blob.core.windows.net/789newnews/123456789_1499244870326.jpg',
+                title: 'Event Test Data 001',
+                author: 'Anonymous 001',
+                pubdate: new Date('2015', '07', '16')
             },
             {
-                imagelink: 'https://twportal.blob.core.windows.net/789newnews/123456789_1499244945378.jpg'
+                imagelink: 'https://twportal.blob.core.windows.net/789newnews/123456789_1499244945378.jpg',
+                title: 'Event Test Data 002',
+                author: 'Anonymous 002',
+                pubdate: new Date('2016', '05', '29')
             },
             {
-                imagelink: 'https://twportal.blob.core.windows.net/789newnews/123456789_1499246007658.jpg'
-            },
+                imagelink: 'https://twportal.blob.core.windows.net/789newnews/123456789_1499246007658.jpg',
+                title: 'Event Test Data 003',
+                author: 'Anonymous 003',
+                pubdate: new Date('2017', '08', '08')
+            }
         ]
 
-        $scope.eventsdetails = [
+        /*$scope.eventsdetails = [
             {
                 title: 'Event Test Data 001',
                 author: 'Anonymous 001',
@@ -54,7 +63,11 @@ var news_app_page = angular.module('news_project', []);
                 author: 'Anonymous 003',
                 pubdate: new Date('2017', '08', '08')
             },
-        ]
+        ]*/
+
+        forecast.success(function(data){
+            $scope.fiveDay = data;
+        });
 
 
-    });
+    }]);

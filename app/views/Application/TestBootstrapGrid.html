@@ -40,7 +40,7 @@
                 <ul class="category_list text-center">
                     <li id="cat1"> <a href=".categoryA" data-toggle="tab"> Category A </a></li>
                     <li id="cat2"> <a href=".categoryB" data-toggle="tab"> Category B </a></li>
-                    <li id="cat3"> <a href=".categoryC" data-toggle="tab">Category C </a></li>
+                    <li id="cat3"> <a href=".categoryC" data-toggle="tab"> Category C </a></li>
                 </ul>
             </div>
         </div>
@@ -60,21 +60,54 @@
                     </div>
                 </div>
                 <!-- Category B News List -->
-                <div id="event-news" class="categoryB">
+                <div id="event-news" class="categoryB" style="display: none;">
                     <div class="row">
                         <!--Event News...-->
-                        <div class="col-sm-8 col-md-4 col-lg-12">
-                            <event-news eventinfo="events"></event-news>
-                        </div>
-                        <div class="col-sm-4 col-md-8 col-lg-12">
-                            <event-details eventinfos="eventsdetails"></event-details>
+                        <div class="card" ng-repeat="app in apps">
+                            <app-info info="app"></app-info>
+                            <!--<img ng-src="{{ event.imagelink }}">-->
+                            <!--<span>-->
+                                <!--{{ event.title }}-->
+                            <!--</span>-->
+
+                            <!--<span>-->
+                                <!--{{ event.author }}-->
+                            <!--</span>-->
+
+                            <!--<p>-->
+                                <!--{{ event.pubdate | date }}-->
+                            <!--</p>-->
                         </div>
                     </div>
                 </div>
                 <!-- Category C News List -->
-                <div id="case-studies" class="categoryC">
+                <div id="case-studies" class="categoryC" style="display: none;">
                     <div class="row">
-                        Case Studies...
+                        <div id="caseStudy" class="col-sm-5">
+                            <h1>{{ fiveDay.city_name}}</h1>
+                            <h2>5-day forecast</h2>
+                            <div class="forecast" ng-repeat="day in fiveDay.days">
+                                <div class="day row">
+                                    <!-- date time -->
+                                        <div class="weekday col-xs-4">
+                                            <span>{{ day.datetime | date }}</span>
+                                        </div>
+                                    <!-- icon -->
+                                    <div class="weather col-xs-3">
+                                        <img ng-src="{{ day.icon }}">
+                                    </div>
+                                    <div class="col-xs-1"></div>
+                                    <!-- high temp -->
+                                        <div class="high col-xs-2">
+                                            <p>{{ day.high }}</p>
+                                        </div>
+                                    <!-- -low temp -->
+                                        <div class="low col-xs-2">
+                                            <p>{{ day.low }}</p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -91,7 +124,7 @@
 </div>
 
 </body>
-
+</html>
 <script>
     $(document).ready(function(){
         $("#cat1").click(function(){
@@ -134,8 +167,8 @@
 
 <!-- Directives -->
 
-<script src="/public/javascripts/directives/event_news.js"></script>
-<script src="/public/javascripts/directives/event_details.js"></script>
+<script src="/public/javascripts/directives/appInfo.js"></script>
 
-</html>
-https://www.codecademy.com/en/courses/learn-angularjs/lessons/services/exercises/services-i?action=lesson_resume&link_content_target=interstitial_lesson
+<!-- Services -->
+<script src="/public/javascripts/services/forecast.js"></script>
+<!--https://www.codecademy.com/en/courses/learn-angularjs/lessons/services/exercises/services-i?action=lesson_resume&link_content_target=interstitial_lesson-->

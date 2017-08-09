@@ -8,6 +8,7 @@ GET     /Lexalytics-AI                          Application.lexalyticsMain
 GET     /Landing-Page-Main                      Application.landingPageIndex
 GET     /Test-Bootstrap-Grid                    Application.TestBootstrapGrid
 GET     /Test-Angular                           TestAngular.indexAngular
+GET     /Test-Angular-Routing                   TestAngularRouting.index
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
