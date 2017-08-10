@@ -1,19 +1,19 @@
 /* line 1, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 body {
   background: #eaeaea;
 }
 
-/* line 4, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 7, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #test-equal {
   border: 1px dotted red;
 }
 
-/* line 7, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
-h1 {
-  border-bottom: 1px solid gray;
-}
-
-/* line 10, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 11, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories {
   /*margin-top: 10px;*/
   width: 250px;
@@ -21,29 +21,29 @@ h1 {
   background-color: #fff;
   padding: 20px;
 }
-/* line 16, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 17, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories .category_list {
   padding: 0px !important;
   list-style-type: none;
 }
-/* line 19, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 20, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories .category_list li {
   display: block;
   padding: 10px;
 }
-/* line 23, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 24, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories .category_list li:nth-of-type(1) {
   background: #808080;
   color: #ffffff !important;
   border-radius: 10px;
   margin-bottom: 10px;
 }
-/* line 29, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 30, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories .category_list li:nth-of-type(1) a {
   text-decoration: none;
   color: white;
 }
-/* line 35, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 36, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories .category_list li:nth-of-type(2), #news-categories .category_list li:nth-of-type(3) {
   background: #ffffff;
   color: #808080 !important;
@@ -51,17 +51,17 @@ h1 {
   border-color: #808080;
   margin-bottom: 10px;
 }
-/* line 42, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 43, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories .category_list li:nth-of-type(2) a, #news-categories .category_list li:nth-of-type(3) a {
   text-decoration: none;
   color: #808080;
 }
-/* line 48, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 49, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories .category_list li a {
   text-decoration: none;
   color: white;
 }
-/* line 54, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 55, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories .category_list li.active {
   background-color: #808080;
   color: #ffffff !important;
@@ -69,11 +69,11 @@ h1 {
   border-color: #808080;
   margin-bottom: 10px;
 }
-/* line 60, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 61, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories .category_list li.active a {
   color: white;
 }
-/* line 64, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 65, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories .category_list li.normal {
   background-color: #ffffff;
   color: #808080 !important;
@@ -81,49 +81,49 @@ h1 {
   border-color: #808080;
   margin-bottom: 10px;
 }
-/* line 70, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 71, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news-categories .category_list li.normal a {
   color: #808080;
 }
 
-/* line 76, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 77, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news_content {
   position: relative;
 }
-/* line 79, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 80, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news_content .top-image {
   width: 310px;
   height: 228px;
   background: #ffffff;
   display: block;
 }
-/* line 86, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 87, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news_content .news-thumbnail {
   background-color: #ffffff;
   margin-bottom: 20px;
   height: 228px;
 }
-/* line 92, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 93, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news_content ul {
   list-style-type: none;
   padding: 20px;
 }
-/* line 96, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 97, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news_content ul li {
   padding: 8px;
 }
-/* line 100, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 101, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news_content ul .titleNews {
   color: #3d4c79;
   font-size: 18px;
   font-weight: 600;
 }
-/* line 106, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 107, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news_content ul .subtitleNews {
   color: #3c3c3c;
   font-size: 15px;
 }
-/* line 111, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 112, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #news_content ul .contentPreview {
   color: #a9a9a9;
   font-size: 14px;
@@ -133,7 +133,7 @@ h1 {
   text-overflow: ellipsis;
 }
 
-/* line 123, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 124, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #caseStudy h1 {
   font-family: "HelveticaNeue-UltraLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 80px;
@@ -141,7 +141,7 @@ h1 {
   margin: 0;
   text-align: right;
 }
-/* line 131, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 132, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #caseStudy h2 {
   border-top: 1px solid #211f1e;
   font-size: 24px;
@@ -150,51 +150,51 @@ h1 {
   padding: 30px 0 0 0;
   text-align: right;
 }
-/* line 140, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 141, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #caseStudy .day > div {
   font-weight: bold;
   line-height: 48px;
 }
-/* line 145, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 146, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #caseStudy .weekday span {
   font-size: 18px;
   font-weight: bold;
 }
-/* line 150, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 151, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #caseStudy .weekday p {
   display: inline-block;
   font-size: 18px;
   font-weight: bold;
 }
-/* line 156, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 157, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #caseStudy .weather img {
   width: 48px;
 }
-/* line 160, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 161, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #caseStudy .high p,
 #caseStudy .low p,
 #caseStudy .hourly .temp {
   font-size: 16px;
 }
-/* line 166, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 167, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #caseStudy .hourly {
   text-align: center;
   display: none;
 }
-/* line 171, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 172, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #caseStudy .hourly .hour {
   font-weight: bold;
   font-size: 16px;
 }
-/* line 176, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 177, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #caseStudy .hourly img {
   width: 24px;
 }
-/* line 180, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 181, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #caseStudy .hourly p {
   margin: 16px 0;
 }
-/* line 184, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
+/* line 185, ../../sass/Bootstrap-Grid/test_bootstrap_grid.scss */
 #caseStudy .last {
   margin-bottom: 100px;
 }

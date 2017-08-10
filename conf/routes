@@ -10,6 +10,8 @@ GET     /Test-Bootstrap-Grid                    Application.TestBootstrapGrid
 GET     /Test-Angular                           TestAngular.indexAngular
 GET     /Test-Angular-Routing                   TestAngularRouting.index
 
+GET     /Spotify-Top-List                       SpotifyTop.index
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 

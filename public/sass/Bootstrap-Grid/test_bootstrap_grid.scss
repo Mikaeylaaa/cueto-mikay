@@ -1,12 +1,13 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background: #eaeaea;
 }
  #test-equal{
     border: 1px dotted red;
 }
-h1{
-    border-bottom: 1px solid gray;
-}
+
 #news-categories{
     /*margin-top: 10px;*/
     width: 250px;

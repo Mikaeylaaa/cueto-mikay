@@ -1,0 +1,15 @@
+/* line 1, ../../sass/spotify-top/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 5, ../../sass/spotify-top/style.scss */
+body {
+  margin: 0 auto;
+}
+
+/* line 9, ../../sass/spotify-top/style.scss */
+ul li {
+  display: inline;
+}
